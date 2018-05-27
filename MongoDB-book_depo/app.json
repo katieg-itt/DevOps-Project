@@ -1,0 +1,21 @@
+{
+  "name": "MongoDB-book_depo",
+  "scripts": {
+    "start": "node Server"
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
